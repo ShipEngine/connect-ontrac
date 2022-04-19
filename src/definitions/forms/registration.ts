@@ -1,5 +1,4 @@
 export const RegistrationFormSchema = {
-  formSchema: {
     jsonSchema: {
       title: "Connect Your OnTrac Account",
       description:
@@ -29,7 +28,6 @@ export const RegistrationFormSchema = {
         "ui:widget": "password",
       },
     },
-  },
 };
 
 export interface RegistrationData {

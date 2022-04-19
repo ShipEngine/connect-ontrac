@@ -1,5 +1,4 @@
 export const SettingsFormSchema = {
-  formSchema: {
     jsonSchema: {
       title: "OnTrac Settings",
       description: "Your OnTrac account information is shown below",
@@ -16,5 +15,4 @@ export const SettingsFormSchema = {
         "ui:readonly": true,
       },
     },
-  },
 };
